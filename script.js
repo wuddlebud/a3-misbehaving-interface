@@ -38,10 +38,18 @@ document.addEventListener("dblclick", (event) => {
    
 })
 
+counter = 0
+
 document.addEventListener("mouseover", (event) => {
-    if (event.target.id === "buttonTime") {
+    console.log('moused')
+    if (event.target.id === "buttonTime" && counter == 1) {
         console.log("you're touching the button")
+        document.body.style.backgroundColor = "red"
+    } else {
+        document.body.style.backgroundColor = "white"
     }
+
+        
    
 })
 
@@ -55,6 +63,11 @@ const btn = document.getElementById("buttonTime");
 const display = document.getElementById("dateDisplay");
 btn.addEventListener("click", () => {
   display.textContent = new Date().toLocaleDateString(); 
+
+  counter = counter + 1 
+
+  counter = counter % 2
+  console.log(counter)
 });
 
 // Select the button by its ID
