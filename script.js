@@ -67,3 +67,11 @@ myButton.addEventListener('click', function() {
   // You can also change the text color
   myButton.style.color = 'white'; 
 });
+// make this insible lol
+
+const element = document.getElementById('buttonTime');
+
+element.addEventListener('dblclick', function() {
+  // Removes the 'active-style' class from the element
+  element.removeAttribute('style');
+});
