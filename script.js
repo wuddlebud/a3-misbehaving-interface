@@ -96,3 +96,8 @@ hiddenButton.addEventListener('click', function() {
 });
 //okay, that might work
 //it worked ;p
+//i changed my mind I do want a double click function for hiddenbutton
+
+hiddenButton.addEventListener('dblclick', function() {
+  window.open('https://youtu.be/RGVBtKtGfds?si=z82irUJBxqL95lAY', '_blank');
+});
