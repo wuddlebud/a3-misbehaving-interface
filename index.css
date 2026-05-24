@@ -23,3 +23,13 @@
     color: rgb(255, 255, 255);
     margin-top: 20px;
 }
+
+#hideThedateButton {
+    background-color: rgb(127, 127, 135);
+    color: white;
+    font-size: 10px;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
