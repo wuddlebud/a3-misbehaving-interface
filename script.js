@@ -91,14 +91,24 @@ element.addEventListener('dblclick', function() {
 
 // im goint to try and make an event listener to react to the hiden button being pressed, that will open a very unexpected link that no one could possibly ever predict
 
-//hiddenButton.addEventListener('click', function() {
-  //window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
-//});
+hiddenButton.addEventListener('click', function() {
+  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+});
 //okay, that might work
 //it worked ;p
 //i changed my mind I do want a double click function for hiddenbutton
 
-hiddenButton.addEventListener('dblclick', function() {
-  window.open('https://youtu.be/RGVBtKtGfds?si=z82irUJBxqL95lAY', '_blank');
-});
+//hiddenButton.addEventListener('oncontextmenu', function() {
+  //window.open('https://youtu.be/RGVBtKtGfds?si=z82irUJBxqL95lAY', '_blank');
+//});
 //not working rn, gonna turn off the other function to test it. It may not be able to process the two diffrent functions, since it will try and open the link after 1 click it doesnt give you enough time to double click.
+//yeah that was the problem, I dont even really want it to lead to 2 diffrent things that badly but its kinda funny. Im going to see if theres another function I can use?
+//oncontextmenu is the function for right clicking it, imma try that DIDNT WORK. I dont think i even realized what right clicking is, thats just regular button pressing bro.
+//instead, ill make the secret video open from pressing a key
+document.onkeydown = function(e) {
+  
+  if (e.key === " ") {
+    window.location.href = "https://youtu.be/RGVBtKtGfds?si=z82irUJBxqL95lAY"; 
+  }
+};
+//so if you press space, it should open my second link
