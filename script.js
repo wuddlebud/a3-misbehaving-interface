@@ -33,15 +33,15 @@ document.addEventListener("click", (event) => {
 
 document.addEventListener("dblclick", (event) => {
     if (event.target.id === "buttonTime") {
-        console.log("button was double clicked")
+        console.log("okay..the secret is you you can double click the hide date button, and it will take you somehwere new! try it")
     }
    
 })
-
+// this is a lie i just want to rick roll you again lol (but i therotically could make it go somewhere else if i wanted to)
 counter = 0
 
 document.addEventListener("mouseover", (event) => {
-    console.log('moused')
+    console.log('get your mouse off of me')
     if (event.target.id === "buttonTime" && counter == 1) {
         console.log("you're touching the button")
         document.body.style.backgroundColor = "red"
@@ -58,7 +58,7 @@ document.addEventListener("mouseover", (event) => {
 //myBtn.addEventListener("click", function() {
 //  displaydate
 //});
-
+// okay no offence micheal but now ive gotta fix this stuff
 const btn = document.getElementById("buttonTime");
 const display = document.getElementById("dateDisplay");
 btn.addEventListener("click", () => {
