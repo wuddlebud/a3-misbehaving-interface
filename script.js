@@ -26,18 +26,19 @@
 
 document.addEventListener("click", (event) => {
     if (event.target.id === "buttonTime") {
-        console.log("button was clicked")
+        console.log("Don't you dare double click me")
     }
     buttonTime = buttonTime + 2
 })
 
 document.addEventListener("dblclick", (event) => {
     if (event.target.id === "buttonTime") {
-        console.log("okay..the secret is you you can double click the hide date button, and it will take you somehwere new! try it")
+        console.log("okay..the secret is you you can really hide the date by pressing the space bar")
     }
    
 })
 // this is a lie i just want to rick roll you again lol (but i therotically could make it go somewhere else if i wanted to)
+
 counter = 0
 
 document.addEventListener("mouseover", (event) => {
