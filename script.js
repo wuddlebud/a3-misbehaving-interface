@@ -88,3 +88,10 @@ element.addEventListener('dblclick', function() {
   // Removes the 'active-style' class from the element
   element.removeAttribute('style');
 });
+
+// im goint to try and make an event listener to react to the hiden button being pressed, that will open a very unexpected link that no one could possibly ever predict
+
+hiddenButton.addEventListener('click', function() {
+  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+});
+//okay, that might work
