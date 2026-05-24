@@ -95,3 +95,4 @@ hiddenButton.addEventListener('click', function() {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
 });
 //okay, that might work
+//it worked ;p
