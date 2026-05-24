@@ -17,3 +17,9 @@
     border: 10px solid #ccc;
     border-radius: 50px;
 }
+
+#secretMessage {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
