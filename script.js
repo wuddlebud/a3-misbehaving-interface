@@ -91,9 +91,9 @@ element.addEventListener('dblclick', function() {
 
 // im goint to try and make an event listener to react to the hiden button being pressed, that will open a very unexpected link that no one could possibly ever predict
 
-hiddenButton.addEventListener('click', function() {
-  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
-});
+//hiddenButton.addEventListener('click', function() {
+  //window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+//});
 //okay, that might work
 //it worked ;p
 //i changed my mind I do want a double click function for hiddenbutton
@@ -101,3 +101,4 @@ hiddenButton.addEventListener('click', function() {
 hiddenButton.addEventListener('dblclick', function() {
   window.open('https://youtu.be/RGVBtKtGfds?si=z82irUJBxqL95lAY', '_blank');
 });
+//not working rn, gonna turn off the other function to test it. It may not be able to process the two diffrent functions, since it will try and open the link after 1 click it doesnt give you enough time to double click.
