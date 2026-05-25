@@ -138,5 +138,6 @@ const btn = document.getElementById('closeButton');
 
     // Update the button's style
     btn.style.left = `${x}px`;
-    btn.style.top = `${y}px`;
-    //okay lets try it
+    btn.style.top = `${y}px`; 
+  });
+    //okay lets try it NOPE didnt work.. added the end brackets lets try again
