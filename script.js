@@ -114,8 +114,9 @@ document.onkeydown = function(e) {
 };
 //so if you press space, it should open my second link
 const element =document.getElementById('answerBox');
-element.addEventListener('input', function closeWin() {
+element.addEventListener('click', function closeWebsite() {
    myWindow.close();
 });
-
+//trying close website??
 // i dont know if this will work, but ive decdied to add another reaction to the answer box. Id like it to maybe close the website? im doing this past the submit date but im curious so feel free to ignore this
+// okay didnt work, gonna try click instead of input
