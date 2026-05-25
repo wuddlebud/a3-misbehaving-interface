@@ -129,7 +129,7 @@ document.onkeydown = function(e) {
 // i dont know if this will work, but ive decdied to add another reaction to the answer box. Id like it to maybe close the website? im doing this past the submit date but im curious so feel free to ignore this
 // okay didnt work, gonna try click instead of input
 
-const btn = document.getElementById('closeButton');
+const closebtn = document.getElementById('closeButton'); // ughh i named these the same!! i have to change one
 
   btn.addEventListener('mouseover', () => {
     // Calculate random position within the viewport
@@ -137,7 +137,9 @@ const btn = document.getElementById('closeButton');
     const y = Math.random() * (window.innerHeight - btn.offsetHeight);
 
     // Update the button's style
+     btn.style.position = 'absolute';
     btn.style.left = `${x}px`;
     btn.style.top = `${y}px`; 
   });
     //okay lets try it NOPE didnt work.. added the end brackets lets try again
+    //okay aded the absolatue position?
