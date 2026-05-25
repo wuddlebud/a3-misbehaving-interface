@@ -33,3 +33,13 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+#closeButton {
+    background-color: rgb(127, 127, 135);
+    color: white;
+    font-size: 10px;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
