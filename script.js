@@ -113,3 +113,9 @@ document.onkeydown = function(e) {
   }
 };
 //so if you press space, it should open my second link
+const element =document.getElementById('answerBox');
+element.addEventListener('input', function closeWin() {
+   myWindow.close();
+});
+
+// i dont know if this will work, but ive decdied to add another reaction to the answer box. Id like it to maybe close the website? im doing this past the submit date but im curious so feel free to ignore this
