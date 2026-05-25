@@ -42,4 +42,6 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    position: absolute;
 }
+/* Im gonna make this button a runway button since it doesnt close the website. Ive gotta set its position to absotlute here in css. THIS IS ALL PAST THE DUE DATE i just wanna see
