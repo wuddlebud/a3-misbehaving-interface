@@ -133,8 +133,8 @@ const closeBtn = document.getElementById('closeButton'); // ughh i named these t
 
   closeBtn.addEventListener('mouseover', () => {
     // Calculate random position within the viewport
-    const x = Math.random() * (window.innerWidth - btn.offsetWidth);
-    const y = Math.random() * (window.innerHeight - btn.offsetHeight);
+    const x = Math.random() * (window.innerWidth - closeBtn.offsetWidth);
+    const y = Math.random() * (window.innerHeight - closeBtn.offsetHeight);
 
     // Update the button's style
      closeBtn.style.position = 'absolute';
@@ -145,3 +145,4 @@ const closeBtn = document.getElementById('closeButton'); // ughh i named these t
     //okay aded the absolatue position?
     //ITS WORKING ON THE WRONG BUTOON AHAHAHAHAHHAHAH
     //okay NOW it should work fr
+    //done! last thing im gonna do is ad a little extra bit to make the movement look smooth. I think i can do that in css
